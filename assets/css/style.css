@@ -1,0 +1,82 @@
+.container{
+    margin: 20px;
+    background: black;
+    
+
+}
+
+.jumbotron {
+    position : relative;
+    background : url("../images/UK.jpg");
+    background-position: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lusitana', serif;
+    color : lightgray;
+    letter-spacing: .25em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#portfolio{
+    position: absolute;
+    top : 10px;
+    left : 40px;
+    border : none;
+    background : transparent;
+    color : white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-family: "lusitana", serif;
+}
+
+a {
+    color : maroon;
+    text-decoration: none;    
+}
+
+.card{
+    border : solid;
+    border-radius: 10px;
+    box-shadow: 0 7px 6px -6px;
+}
+
+#trainTable, #form-input{
+    font-family: 'Lusitana', serif;
+}
+
+.thead-default{
+    background-color : lightgrey; 
+}
+.tableBody{
+    height : 100px;
+}
+
+.panel, .card-heading {
+    padding-left : 10px;
+    background-color : maroon;
+    font-family: 'Lusitana', serif;
+    letter-spacing: .20em;
+}
+
+.form-control, .tableRow {
+    box-shadow : inset 1px 0 10px;
+    color: #000;
+}
+
+.btn{
+    background-color : maroon; 
+    cursor: pointer;
+    width : 100%;
+    opacity : 0.75;
+    border : black;
+    font-weight: bold;
+    font-family: 'Lusitana', serif;
+    letter-spacing: .45em;
+    box-shadow: 0 8px 6px -6px grey;
+}
+.btn:hover{
+    opacity: .75;
+
+}
